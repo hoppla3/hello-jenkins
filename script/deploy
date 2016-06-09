@@ -1,4 +1,5 @@
 #!/bin/sh
+
  
 ssh app@kvmhv02.ti.bfh.ch <<EOF
   cd ~/hello-jenkins
