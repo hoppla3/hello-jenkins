@@ -2,7 +2,7 @@
  
 ssh app@kvmhv02.ti.bfh.ch <<EOF
   cd ~/hello-jenkins
-  git pull
+  git fetch origin 
   npm install --production
   forever restartall
   exit
